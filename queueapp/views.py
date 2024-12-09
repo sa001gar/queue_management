@@ -7,7 +7,10 @@ from django_filters.rest_framework import DjangoFilterBackend
 from .models import Line, Registration
 from .serializers import UserSerializer, LineSerializer, RegistrationSerializer
 from django.contrib.auth.models import User
+from django.views.decorators.csrf import csrf_exempt
+from django.utils.decorators import method_decorator
 
+@method_decorator(csrf_exempt, name='dispatch')
 class UserViewSet(viewsets.ModelViewSet):
     queryset = User.objects.all()
     serializer_class = UserSerializer
@@ -43,6 +46,7 @@ class UserViewSet(viewsets.ModelViewSet):
         else:
             return Response({"error": "You're not logged in."}, status=status.HTTP_400_BAD_REQUEST)
 
+@method_decorator(csrf_exempt, name='dispatch')
 class LineViewSet(viewsets.ModelViewSet):
     queryset = Line.objects.all()
     serializer_class = LineSerializer
@@ -77,6 +81,7 @@ class LineViewSet(viewsets.ModelViewSet):
         except Registration.DoesNotExist:
             return Response({"error": "You are not registered in this line."}, status=status.HTTP_400_BAD_REQUEST)
 
+@method_decorator(csrf_exempt, name='dispatch')
 class RegistrationViewSet(viewsets.ReadOnlyModelViewSet):
     serializer_class = RegistrationSerializer
     permission_classes = [permissions.IsAuthenticated]
