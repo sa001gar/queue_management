@@ -23,7 +23,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = 'django-insecure-@%nqbqka_%+fj$(vw2-h#dj6%z#g%!f_wco!o(9q=b9n-2_u49'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
 ALLOWED_HOSTS = ['trackseries.sagarkundu.live','15.207.188.175', 'localhost']
 
