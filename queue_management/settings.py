@@ -12,6 +12,9 @@ https://docs.djangoproject.com/en/5.1/ref/settings/
 
 from pathlib import Path
 
+from datetime import timedelta
+from django.conf import settings
+
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
 
@@ -27,19 +30,24 @@ DEBUG = True
 
 ALLOWED_HOSTS = ['trackseries.sagarkundu.live','15.207.188.175', 'localhost','127.0.0.1']
 
-CSRF_TRUSTED_ORIGINS = ['https://trackseries.sagarkundu.live',]
+# Add CORS settings
+CORS_ALLOW_ALL_ORIGINS = True  # Only for development! Configure properly for production
+CORS_ALLOW_CREDENTIALS = True
+CORS_ALLOWED_ORIGINS = [
+    "http://localhost:8000",
+    "http://127.0.0.1:8000",
+    "https://trackseries.sagarkundu.live",
+    "http://trackseries.sagarkundu.live",
+]
 
-# CORS_ALLOWED_ORIGINS = [
-#     "https://trackseries.sagarkundu.live",  # Replace with the origin making the request
-#     "https://localhost:8000",  # For local development
-# ]
-
-CORS_ALLOW_ALL_ORIGINS = True
-
+# Add CORS_ALLOWED_ORIGIN_REGEXES if needed
+CORS_ALLOWED_ORIGIN_REGEXES = [
+    r"^https://\w+\.sagarkundu\.live$",
+]
 # Application definition
 
 INSTALLED_APPS = [
-   'django.contrib.admin',
+    'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
     'django.contrib.sessions',
@@ -48,13 +56,14 @@ INSTALLED_APPS = [
     'rest_framework',
     'rest_framework.authtoken',
     'django_filters',
+    'corsheaders',
     'drf_yasg',
     'queueapp',
     'whitenoise.runserver_nostatic',
-    'corsheaders',
-]
+]    
 
 MIDDLEWARE = [
+    'corsheaders.middleware.CorsMiddleware',
     'django.middleware.security.SecurityMiddleware',
     'django.contrib.sessions.middleware.SessionMiddleware',
     'django.middleware.common.CommonMiddleware',
@@ -63,7 +72,7 @@ MIDDLEWARE = [
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
     'whitenoise.middleware.WhiteNoiseMiddleware',
-    'corsheaders.middleware.CorsMiddleware',
+    
 ]
 
 ROOT_URLCONF = 'queue_management.urls'
@@ -164,5 +173,22 @@ REST_FRAMEWORK = {
     }
 }
 
+# Add Swagger settings
+SWAGGER_SETTINGS = {
+    'USE_SESSION_AUTH': False,
+    'SECURITY_DEFINITIONS': {
+        'Token': {
+            'type': 'apiKey',
+            'name': 'Authorization',
+            'in': 'header'
+        }
+    },
+    'OPERATIONS_SORTER': 'alpha',
+    'TAGS_SORTER': 'alpha',
+    'DOC_EXPANSION': 'none',
+    'DEFAULT_INFO': 'queue_management.urls.api_info',
+    'SUPPORTED_SUBMIT_METHODS': ['get', 'post', 'put', 'delete', 'patch'],
+}
 
-SECURE_SSL_REDIRECT = False
+
+# SECURE_SSL_REDIRECT = False
