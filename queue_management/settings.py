@@ -30,20 +30,15 @@ DEBUG = True
 
 ALLOWED_HOSTS = ['trackseries.sagarkundu.live','15.207.188.175', 'localhost','127.0.0.1']
 
-# Add CORS settings
-CORS_ALLOW_ALL_ORIGINS = True  # Only for development! Configure properly for production
-CORS_ALLOW_CREDENTIALS = True
-CORS_ALLOWED_ORIGINS = [
-    "http://localhost:8000",
-    "http://127.0.0.1:8000",
-    "https://trackseries.sagarkundu.live",
-    "http://trackseries.sagarkundu.live",
-]
+CSRF_TRUSTED_ORIGINS = ['https://trackseries.sagarkundu.live',]
 
-# Add CORS_ALLOWED_ORIGIN_REGEXES if needed
-CORS_ALLOWED_ORIGIN_REGEXES = [
-    r"^https://\w+\.sagarkundu\.live$",
-]
+# CORS_ALLOWED_ORIGINS = [
+#     "https://trackseries.sagarkundu.live",  # Replace with the origin making the request
+#     "https://localhost:8000",  # For local development
+# ]
+
+CORS_ALLOW_ALL_ORIGINS = True
+
 # Application definition
 
 INSTALLED_APPS = [
@@ -63,7 +58,6 @@ INSTALLED_APPS = [
 ]    
 
 MIDDLEWARE = [
-    'corsheaders.middleware.CorsMiddleware',
     'django.middleware.security.SecurityMiddleware',
     'django.contrib.sessions.middleware.SessionMiddleware',
     'django.middleware.common.CommonMiddleware',
@@ -72,7 +66,7 @@ MIDDLEWARE = [
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
     'whitenoise.middleware.WhiteNoiseMiddleware',
-    
+    'corsheaders.middleware.CorsMiddleware',
 ]
 
 ROOT_URLCONF = 'queue_management.urls'
@@ -171,23 +165,6 @@ REST_FRAMEWORK = {
         'anon': '100/day',
         'user': '1000/day'
     }
-}
-
-# Add Swagger settings
-SWAGGER_SETTINGS = {
-    'USE_SESSION_AUTH': False,
-    'SECURITY_DEFINITIONS': {
-        'Token': {
-            'type': 'apiKey',
-            'name': 'Authorization',
-            'in': 'header'
-        }
-    },
-    'OPERATIONS_SORTER': 'alpha',
-    'TAGS_SORTER': 'alpha',
-    'DOC_EXPANSION': 'none',
-    'DEFAULT_INFO': 'queue_management.urls.api_info',
-    'SUPPORTED_SUBMIT_METHODS': ['get', 'post', 'put', 'delete', 'patch'],
 }
 
 
