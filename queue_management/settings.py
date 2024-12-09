@@ -25,9 +25,9 @@ SECRET_KEY = 'django-insecure-@%nqbqka_%+fj$(vw2-h#dj6%z#g%!f_wco!o(9q=b9n-2_u49
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ['trackseries.sagarkundu.live','15.207.188.175', 'localhost']
+ALLOWED_HOSTS = ['trackseries.sagarkundu.live','15.207.188.175', 'localhost','127.0.0.1']
 
-
+CSRF_TRUSTED_ORIGINS = ['https://trackseries.sagarkundu.live',]
 
 # Application definition
 
