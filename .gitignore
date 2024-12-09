@@ -1,0 +1,23 @@
+# Python-specific files
+venv/
+__pycache__/
+
+
+*.pyc
+*.pyo
+*.pyd
+.pytest_cache/
+.mypy_cache/
+
+# Database files
+db.sqlite3
+
+
+# Sensitive files
+line_app.pem
+
+# Common files
+*.swp
+*.bak
+*.tmp
+*~
