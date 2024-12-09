@@ -2867,3 +2867,71 @@ File C:\Users\SagarKundu\Desktop\queue_management\venv\Lib\site-packages\django_
 File C:\Users\SagarKundu\Desktop\queue_management\venv\Lib\site-packages\django_filters\locale\bg\LC_MESSAGES\django.mo first seen with mtime 1733763294.77992
 File C:\Users\SagarKundu\Desktop\queue_management\venv\Lib\site-packages\django_filters\locale\be\LC_MESSAGES\django.mo first seen with mtime 1733763294.7769213
 File C:\Users\SagarKundu\Desktop\queue_management\venv\Lib\site-packages\django_filters\locale\ar\LC_MESSAGES\django.mo first seen with mtime 1733763294.7749207
+File C:\Users\SagarKundu\Desktop\queue_management\venv\Lib\site-packages\django\contrib\auth\migrations\0011_update_proxy_permissions.py first seen with mtime 1733763272.670225
+File C:\Users\SagarKundu\Desktop\queue_management\venv\Lib\site-packages\django\db\models\sql\compiler.py first seen with mtime 1733763276.104653
+File C:\Users\SagarKundu\Desktop\queue_management\venv\Lib\site-packages\django\contrib\sessions\migrations\0001_initial.py first seen with mtime 1733763275.3802476
+File C:\Users\SagarKundu\Desktop\queue_management\venv\Lib\site-packages\rest_framework\authtoken\migrations\0001_initial.py first seen with mtime 1733763292.795552
+File C:\Users\SagarKundu\Desktop\queue_management\venv\Lib\site-packages\django\contrib\sessions\backends\__init__.py first seen with mtime 1733763275.0784304
+File C:\Users\SagarKundu\Desktop\queue_management\venv\Lib\site-packages\django\contrib\admin\migrations\0002_logentry_remove_auto_add.py first seen with mtime 1733763271.5207283
+File C:\Users\SagarKundu\Desktop\queue_management\queueapp\migrations\__init__.py first seen with mtime 1733683675.1481135
+File C:\Users\SagarKundu\Desktop\queue_management\venv\Lib\site-packages\rest_framework\authtoken\migrations\__init__.py first seen with mtime 1733763292.8111813
+File C:\Users\SagarKundu\Desktop\queue_management\venv\Lib\site-packages\django\contrib\auth\migrations\0001_initial.py first seen with mtime 1733763272.65922
+File C:\Users\SagarKundu\Desktop\queue_management\venv\Lib\site-packages\django\contrib\auth\migrations\0010_alter_group_name_max_length.py first seen with mtime 1733763272.6692228
+File C:\Users\SagarKundu\Desktop\queue_management\venv\Lib\site-packages\django\contrib\auth\migrations\0002_alter_permission_name_max_length.py first seen with mtime 1733763272.6602232
+File C:\Users\SagarKundu\Desktop\queue_management\venv\Lib\site-packages\django\contrib\auth\migrations\__init__.py first seen with mtime 1733763272.6722271
+File C:\Users\SagarKundu\Desktop\queue_management\venv\Lib\site-packages\rest_framework\authtoken\migrations\0004_alter_tokenproxy_options.py first seen with mtime 1733763292.8111813
+File C:\Users\SagarKundu\Desktop\queue_management\venv\Lib\site-packages\django\contrib\auth\migrations\0009_alter_user_last_name_max_length.py first seen with mtime 1733763272.6682236
+File C:\Users\SagarKundu\Desktop\queue_management\venv\Lib\site-packages\django\middleware\common.py first seen with mtime 1733763276.2452705
+File C:\Users\SagarKundu\Desktop\queue_management\venv\Lib\site-packages\django\contrib\contenttypes\migrations\__init__.py first seen with mtime 1733763272.989967
+File C:\Users\SagarKundu\Desktop\queue_management\venv\Lib\site-packages\corsheaders\signals.py first seen with mtime 1733785301.8552327
+File C:\Users\SagarKundu\Desktop\queue_management\venv\Lib\site-packages\django\contrib\auth\migrations\0006_require_contenttypes_0002.py first seen with mtime 1733763272.664222
+File C:\Users\SagarKundu\AppData\Local\Programs\Python\Python313\Lib\stringprep.py first seen with mtime 1728277008.0
+File C:\Users\SagarKundu\Desktop\queue_management\venv\Lib\site-packages\django\db\migrations\executor.py first seen with mtime 1733763276.0265257
+File C:\Users\SagarKundu\Desktop\queue_management\venv\Lib\site-packages\django\contrib\auth\migrations\0008_alter_user_username_max_length.py first seen with mtime 1733763272.6672237
+File C:\Users\SagarKundu\Desktop\queue_management\venv\Lib\site-packages\django\contrib\auth\migrations\0012_alter_user_first_name_max_length.py first seen with mtime 1733763272.6712234
+File C:\Users\SagarKundu\Desktop\queue_management\venv\Lib\site-packages\django\contrib\sessions\backends\db.py first seen with mtime 1733763275.0784304
+File C:\Users\SagarKundu\Desktop\queue_management\venv\Lib\site-packages\whitenoise\middleware.py first seen with mtime 1733763340.0706694
+File C:\Users\SagarKundu\Desktop\queue_management\venv\Lib\site-packages\django\contrib\sessions\backends\base.py first seen with mtime 1733763275.0784304
+File C:\Users\SagarKundu\Desktop\queue_management\venv\Lib\site-packages\django\db\migrations\loader.py first seen with mtime 1733763276.0421567
+File C:\Users\SagarKundu\Desktop\queue_management\venv\Lib\site-packages\django\contrib\sessions\middleware.py first seen with mtime 1733763275.062804
+File C:\Users\SagarKundu\Desktop\queue_management\venv\Lib\site-packages\django\contrib\auth\migrations\0005_alter_user_last_login_null.py first seen with mtime 1733763272.664222
+File C:\Users\SagarKundu\Desktop\queue_management\venv\Lib\site-packages\django\db\migrations\graph.py first seen with mtime 1733763276.0265257
+File C:\Users\SagarKundu\Desktop\queue_management\venv\Lib\site-packages\django\contrib\sessions\migrations\__init__.py first seen with mtime 1733763275.3802476
+File C:\Users\SagarKundu\Desktop\queue_management\venv\Lib\site-packages\django\contrib\admin\migrations\0001_initial.py first seen with mtime 1733763271.5197291
+File C:\Users\SagarKundu\Desktop\queue_management\venv\Lib\site-packages\django\contrib\auth\migrations\0003_alter_user_email_max_length.py first seen with mtime 1733763272.6622212
+File C:\Users\SagarKundu\Desktop\queue_management\venv\Lib\site-packages\django\core\cache\backends\locmem.py first seen with mtime 1733763275.7396264
+File C:\Users\SagarKundu\Desktop\queue_management\venv\Lib\site-packages\rest_framework\authtoken\migrations\0003_tokenproxy.py first seen with mtime 1733763292.8111813
+File C:\Users\SagarKundu\Desktop\queue_management\venv\Lib\site-packages\django\contrib\sessions\exceptions.py first seen with mtime 1733763275.062804
+File C:\Users\SagarKundu\Desktop\queue_management\venv\Lib\site-packages\rest_framework\authtoken\migrations\0002_auto_20160226_1747.py first seen with mtime 1733763292.795552
+File C:\Users\SagarKundu\Desktop\queue_management\venv\Lib\site-packages\django\db\migrations\recorder.py first seen with mtime 1733763276.0421567
+File C:\Users\SagarKundu\Desktop\queue_management\venv\Lib\site-packages\corsheaders\middleware.py first seen with mtime 1733785301.853235
+File C:\Users\SagarKundu\Desktop\queue_management\queue_management\wsgi.py first seen with mtime 1733788201.6348379
+File C:\Users\SagarKundu\Desktop\queue_management\venv\Lib\site-packages\django\contrib\staticfiles\storage.py first seen with mtime 1733763275.6927476
+File C:\Users\SagarKundu\Desktop\queue_management\venv\Lib\site-packages\django\contrib\auth\migrations\0007_alter_validators_add_error_messages.py first seen with mtime 1733763272.666221
+File C:\Users\SagarKundu\Desktop\queue_management\venv\Lib\site-packages\django\middleware\clickjacking.py first seen with mtime 1733763276.2452705
+File C:\Users\SagarKundu\Desktop\queue_management\venv\Lib\site-packages\django\contrib\admin\migrations\0003_logentry_add_action_flag_choices.py first seen with mtime 1733763271.521729
+File C:\Users\SagarKundu\Desktop\queue_management\venv\Lib\site-packages\django\contrib\admin\migrations\__init__.py first seen with mtime 1733763271.5227284
+File C:\Users\SagarKundu\AppData\Local\Programs\Python\Python313\Lib\encodings\idna.py first seen with mtime 1728277008.0
+File C:\Users\SagarKundu\Desktop\queue_management\venv\Lib\site-packages\django\contrib\messages\middleware.py first seen with mtime 1733763274.2473729
+File C:\Users\SagarKundu\Desktop\queue_management\venv\Lib\site-packages\django\contrib\auth\migrations\0004_alter_user_username_opts.py first seen with mtime 1733763272.6632223
+File C:\Users\SagarKundu\Desktop\queue_management\venv\Lib\site-packages\django\contrib\contenttypes\migrations\0001_initial.py first seen with mtime 1733763272.9889653
+File C:\Users\SagarKundu\Desktop\queue_management\venv\Lib\site-packages\django\views\csrf.py first seen with mtime 1733763276.5091815
+File C:\Users\SagarKundu\Desktop\queue_management\queueapp\migrations\0001_initial.py first seen with mtime 1733684110.4011302
+File C:\Users\SagarKundu\Desktop\queue_management\venv\Lib\site-packages\django\contrib\contenttypes\migrations\0002_remove_content_type_name.py first seen with mtime 1733763272.989967
+File C:\Users\SagarKundu\Desktop\queue_management\queue_management\settings.py previous mtime: 1733788274.2187755, current mtime: 1733788372.3238685
+C:\Users\SagarKundu\Desktop\queue_management\queue_management\settings.py notified as changed. Signal results: [(<function template_changed at 0x000002B360A2C040>, None), (<function translation_file_changed at 0x000002B361AA36A0>, None)].
+C:\Users\SagarKundu\Desktop\queue_management\queue_management\settings.py changed, reloading.
+Watching for file changes with StatReloader
+Waiting for apps ready_event.
+Apps ready_event triggered. Sending autoreload_started signal.
+Watching dir C:\Users\SagarKundu\Desktop\queue_management\venv\Lib\site-packages\rest_framework\templates with glob **/*.
+Watching dir C:\Users\SagarKundu\Desktop\queue_management\venv\Lib\site-packages\django_filters\templates with glob **/*.
+Watching dir C:\Users\SagarKundu\Desktop\queue_management\venv\Lib\site-packages\drf_yasg\templates with glob **/*.
+Watching dir C:\Users\SagarKundu\Desktop\queue_management\locale with glob **/*.mo.
+Watching dir C:\Users\SagarKundu\Desktop\queue_management\venv\Lib\site-packages\rest_framework\locale with glob **/*.mo.
+Watching dir C:\Users\SagarKundu\Desktop\queue_management\venv\Lib\site-packages\rest_framework\authtoken\locale with glob **/*.mo.
+Watching dir C:\Users\SagarKundu\Desktop\queue_management\venv\Lib\site-packages\django_filters\locale with glob **/*.mo.
+Watching dir C:\Users\SagarKundu\Desktop\queue_management\venv\Lib\site-packages\corsheaders\locale with glob **/*.mo.
+Watching dir C:\Users\SagarKundu\Desktop\queue_management\venv\Lib\site-packages\drf_yasg\locale with glob **/*.mo.
+Watching dir C:\Users\SagarKundu\Desktop\queue_management\queueapp\locale with glob **/*.mo.
+Watching dir C:\Users\SagarKundu\Desktop\queue_management\venv\Lib\site-packages\whitenoise\runserver_nostatic\locale with glob **/*.mo.

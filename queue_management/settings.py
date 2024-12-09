@@ -161,10 +161,10 @@ REST_FRAMEWORK = {
         'user': '1000/day'
     }
 }
-
+SECURE_SSL_REDIRECT = False
 # Security Settings
 if not DEBUG:
-    SECURE_SSL_REDIRECT = True
+    
     SESSION_COOKIE_SECURE = True
     CSRF_COOKIE_SECURE = True
     SECURE_BROWSER_XSS_FILTER = True
