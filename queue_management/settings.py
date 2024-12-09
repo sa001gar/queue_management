@@ -29,6 +29,11 @@ ALLOWED_HOSTS = ['trackseries.sagarkundu.live','15.207.188.175', 'localhost','12
 
 CSRF_TRUSTED_ORIGINS = ['https://trackseries.sagarkundu.live',]
 
+CORS_ALLOWED_ORIGINS = [
+    "https://trackseries.sagarkundu.live",  # Replace with the origin making the request
+    "https://localhost:8000",  # For local development
+]
+
 # Application definition
 
 INSTALLED_APPS = [
@@ -44,6 +49,7 @@ INSTALLED_APPS = [
     'drf_yasg',
     'queueapp',
     'whitenoise.runserver_nostatic',
+    'corsheaders',
 ]
 
 MIDDLEWARE = [
@@ -55,6 +61,7 @@ MIDDLEWARE = [
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
     'whitenoise.middleware.WhiteNoiseMiddleware',
+    'corsheaders.middleware.CorsMiddleware',
 ]
 
 ROOT_URLCONF = 'queue_management.urls'
