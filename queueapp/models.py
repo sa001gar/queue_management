@@ -20,6 +20,10 @@ class Registration(models.Model):
     aadhaar_no = models.CharField(max_length=12)
     dob = models.DateField()
     position = models.IntegerField()
+    created_at = models.DateTimeField(auto_now_add=True)  # Add this line
+
+    class Meta:
+        unique_together = ('user', 'line')
 
     def __str__(self):
         return f"{self.user.username} - {self.line.name}"

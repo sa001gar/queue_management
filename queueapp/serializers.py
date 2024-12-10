@@ -20,6 +20,7 @@ class LineSerializer(serializers.ModelSerializer):
 class RegistrationSerializer(serializers.ModelSerializer):
     class Meta:
         model = Registration
-        fields = '__all__'
+        fields = ['id', 'user', 'line', 'position']
         read_only_fields = ['user', 'position']
+
 
