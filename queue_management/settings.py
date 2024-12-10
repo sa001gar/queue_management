@@ -30,13 +30,13 @@ ALLOWED_HOSTS = ['trackseries.sagarkundu.live', '15.207.188.175', 'localhost', '
 
 CSRF_TRUSTED_ORIGINS = ['https://trackseries.sagarkundu.live']
 
-CORS_ALLOWED_ORIGINS = [
-    "https://trackseries.sagarkundu.live",
-    "http://localhost:8000",
-    "http://127.0.0.1:8000",
-]
+# CORS_ALLOWED_ORIGINS = [
+#     "https://trackseries.sagarkundu.live",
+#     "http://localhost:8000",
+#     "http://127.0.0.1:8000",
+# ]
 
-CORS_ALLOW_ALL_ORIGINS = False  # More secure to specify allowed origins
+CORS_ALLOW_ALL_ORIGINS = True  # More secure to specify allowed origins
 
 # Application definition
 
